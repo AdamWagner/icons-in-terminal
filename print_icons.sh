@@ -19,12 +19,12 @@ do
 	for glyph in "${array_glyph[@]}"; do
 	    info=(${glyph//:/ })
 	    if [ $# -gt 0 ]; then
-		str="$str${info[0]}: \u${info[1]}\n"
+		str="$str${info[0]}: \u${info[1]} \n"
 	    else
 		str="$str \u${info[1]}"
 	    fi
 	done
-	echo -e $str | sed 's/ /  /g'
+	echo -e "$str " | sed 's/ /  /g'
     fi
 done < "$filename"
 
