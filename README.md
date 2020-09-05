@@ -1,5 +1,9 @@
 ![ls](image/ls.jpg)
 
+## Changes in fork
+
+- Update [octicons](https://github.com/primer/octicons) to v10.10
+
 ## Overview
 
 - `icons-in-terminal` allows you to get any fonts in your terminal without replacing or patching your font.  
